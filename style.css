@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(147, 69, 147);
+    color: #010101;
+}
+.wrapper{
+    position: relative;
+    margin: 5% auto;
+    width: 26%;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0 8px 30px;
+    border-bottom: 8px solid rgb(237, 174, 73)
+}
+
+/* .style {
+    border-left: 4px solid #DC0073;
+    border-right: 4px solid #DC0073;
+    border-bottom: 4px solid #DC0073;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 30px;
+    position: absolute;
+    top: 420px;
+    left: 0;
+    right: 0;
+} */
+
+.inner-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    color:rgb(44, 44, 44);
+    font-size: 34px;
+    font-family: 'Lobster', cursive;
+    margin: 20px;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid  rgb(147, 69, 147);
+}
+
+.date-div {
+    text-align: center;
+}
+
+.week {
+    font-size: 24px;
+    margin: 14px 0 4px; 
+}
+
+.time {
+    margin-top: 0;
+    color: rgb(68, 68, 68);
+}
+
+.track {
+    font-size: 20px;
+}
+
+
+@media(min-width: 280px) and (max-width: 540px) {
+    .wrapper {
+        width: 80%;
+    }
+}
